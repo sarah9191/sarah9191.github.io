@@ -1,120 +1,45 @@
-/* ================================= 
-  Base Element Styles
-==================================== */
-*{
-    box-sizing: border-box;
+
+      body {
+        margin: 15px;
+        background: #000;
+        padding: 0;
+        color: #fff;
+        font-family: Arial,Helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 1.3em;
+        -webkit-font-smoothing: antialiased;
+      }
+
+     a {
+    color: #FFFFFF;
+
+      }
+      a:link {
+    text-decoration: none;
 }
-
-body { 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    font-weight: normal;
-	font-style: normal;
-    line-height: 20px;
-    line-height: 22px;
-    margin: 25px;
-    margin-bottom: 75px;
-    margin-top: 12px;
-    -webkit-font-smoothing: antialiased;
-}
-
-.text{
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 20px;
-}
-
-.title{
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 20px;
-}
-
-ul.menu{
-    position: fixed;
-    width: 220px;
-    height: 600px;
-    display: block;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    background: rgba(0, 0, 300, 0.1);  
-}
-
-.name {
-    position: fixed;
-    bottom: 20px;
-    margin: 0px 5px;
-}
-
-.right{
-    width: 650px;
-    background: rgba(255, 0, 0, 0.1);
-    display: block;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 245px;
-}
-
-#cv{
-    background: rgba(0, 335, 0, 0.1);
-    width: 650px;
-    line-height: 22px;
-    height: 600px;
-}
-
-img {
-    max-width: 650px;
-    margin: 0px 0px 20px -40px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a:link {
-  text-decoration: none;
-  color: black;
-}
-
-a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  text-decoration: none;
-  border-bottom: 1px solid black;
-  color: black;
-}
-
-
-/* ================================= 
-  Media Queries
-==================================== */
-
-
-@media (max-width: 600px) {
-
-.right {
-  margin-left: 0px;
-}
-
-.images {
-  display: block;
-  margin-left: 0px;
-  padding-top: 8px;
+       a:hover {
+    text-decoration: underline;
 }
     
-img {
-  max-width: 400px;
-  margin-right: 100px;
-    }
-    
- #left{
-  display: none;
-    }
-    
- .right{
-  max-width: 400px;
-    }
-  
-  
+     p { max-width: 600px; }
+   
+#container {
+    margin: 20px 25px 30px 15px;
+}
+
+   #header {
+    margin: 20px 25px 30px -25px;
+} 
+   #body {
+    margin: 20px 25px 30px 15px;
+}
+
+#footer {
+  margin: 20px 25px 30px 15px;
+  position:absolute;
+  bottom:0;
+}
+
+
+
+
